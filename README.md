@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+## PERC20 Token Contract
+This Solidity smart contract creates a PERC20 token on Ethereum. It includes features for deploying, minting, and transferring tokens.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### Getting Started
+Deploy this contract on the Swisstronik network or your preferred Ethereum network.
+Use the contract functions to mint and transfer tokens.
+### Functions
+mint: Mint additional tokens (only the owner can call this).
+transferToken: Transfer tokens to a specified address (only the owner can call this). 
